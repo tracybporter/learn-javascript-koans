@@ -4,7 +4,8 @@
   "description": "learning javascript with tests",
   "main": "index.js",
   "scripts": {
-    "testQunit": "qunit --seed ./jskoans.htm topics/**/*.js"
+    "start": "jskoans.htm",
+    "test": "qunit --seed ./jskoans.htm topics/*.js"
   },
   "repository": {
     "type": "git",
