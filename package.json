@@ -1,0 +1,27 @@
+{
+  "name": "learn-javascript-koans",
+  "version": "1.0.0",
+  "description": "learning javascript with tests",
+  "main": "index.js",
+  "scripts": {
+    "start": "jskoans.htm",
+    "test": "qunit --seed ./jskoans.htm topics/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tracybporter/learn-javascript-koans.git"
+  },
+  "keywords": [
+    "learning"
+  ],
+  "author": "hackagesAndTbporter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tracybporter/learn-javascript-koans/issues"
+  },
+  "homepage": "https://github.com/tracybporter/learn-javascript-koans#readme",
+  "dependencies": {
+    "qunit": "^2.18.0",
+    "testem": "^3.6.0"
+  }
+}
